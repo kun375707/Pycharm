@@ -28,7 +28,6 @@ def process_data(threadName, q):
             queueLock.release()
         time.sleep(1)
 
-
 threadList = ["Thread-1", "Thread-2", "Thread-3"]
 nameList = ["One", "Two", "Three", "Four", "Five"]
 queueLock = threading.Lock()
